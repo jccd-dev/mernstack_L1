@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "types": ["Node"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
+
+/*
+ * target: Sets the ECMAScript target version (e.g., esnext for latest features).
+ * lib: Includes necessary DOM and Node.js libraries.
+ * module: Specifies CommonJS module format.
+ * outDir: Specifies the output directory for compiled JavaScript files.
+ * rootDir: Sets the root directory for source files.
+ * allowJs: Allows compiling existing JavaScript files alongside TypeScript.
+ * skipLibCheck: Skips type checking for included libraries (node, express).
+ * esModuleInterop: Ensures compatibility with ES modules.
+ * forceConsistentCasingInFileNames: Enforces consistent file name casing.
+ * strict: Enables strict type checking for better error detection.
+ * noFallthroughCasesInSwitch: Warns against unintended fall-through in switch statements.
+ * moduleResolution: Sets module resolution strategy to Node.js-specific.
+ * resolveJsonModule: Allows importing of JSON modules as CommonJS modules.
+ * isolatedModules: Isolates each module's scope for better type safety.
+ * types: Declares required type definitions for Node.js and Express.
+ * include: Specifies which files to compile (only in src directory).
+ * exclude: Excludes the node_modules directory from compilation.
+ */
